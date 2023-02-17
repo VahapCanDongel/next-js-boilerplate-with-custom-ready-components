@@ -1,5 +1,5 @@
 import Button from "@/components/Button";
-import MainTitle from "@/components/MainTitle";
+import Typography from "@/components/Typography";
 import Container from "@/components/Container";
 export default function Home() {
   return (
@@ -9,7 +9,7 @@ export default function Home() {
         Bye
       </Button>
 
-      <MainTitle className="font-bold text-[100px] ">Hello</MainTitle>
+      <Typography text>Hello</Typography>
 
       <Container allCenter flexRow fullWidth fullHeight className="bg-red-400">
         <div className="bg-pink-400 p-2">Hello</div>
