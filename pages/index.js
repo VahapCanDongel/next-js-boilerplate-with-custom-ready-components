@@ -17,7 +17,7 @@ export default function Home() {
         <div>Bye</div>
       </Container> */}
 
-      <Alert Error>
+      <Alert Warning>
         You have not completed the form.
       </Alert>
 
