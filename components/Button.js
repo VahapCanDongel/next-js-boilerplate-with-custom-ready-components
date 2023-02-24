@@ -1,5 +1,5 @@
 export default function Button(props) {
-  const classNames = ["transition-all rounded-md p-2 min-w-[80px]"];
+  const classNames = ["transition-all rounded-md p-2 min-w-[80px] border-[1px]"];
 
   if (props.outlined) {
     classNames.push("bg-transparent border-[1px]");
