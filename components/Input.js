@@ -1,5 +1,9 @@
 export default function Input(props){
-    const classNames = ["focus:outline-none "]
+    const classNames = ["focus:outline-none relative"]
+
+    
+
+
 
     if(props.outlined){
         classNames.push("bg-transparent p-2 rounded-md w-[230px] h-[40px] border-[1px]")

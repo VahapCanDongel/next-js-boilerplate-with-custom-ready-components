@@ -6,11 +6,11 @@ export default function Button(props) {
   }
   if (props.positive) {
     classNames.push(
-      "bg-green-300 min-w-[80px] hover:bg-green-400 text-slate-900"
+      "bg-green-500 min-w-[80px] hover:bg-green-400 text-slate-900"
     );
   }
   if (props.negative) {
-    classNames.push("bg-red-300 min-w-[80px] hover:bg-red-400 text-slate-900");
+    classNames.push("bg-red-500 min-w-[80px] hover:bg-red-400 text-slate-900");
   }
   if (props.className) {
     classNames.push(props.className);

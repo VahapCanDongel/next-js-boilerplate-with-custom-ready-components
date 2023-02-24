@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div>
       <div className="text-cyan-800">Test</div>
-      <Button positive className="w-[100px]">
+      <Button negative className="w-[100px]">
         Bye
       </Button>
 
