@@ -2,6 +2,7 @@ import Button from "@/components/Button";
 import Typography from "@/components/Typography";
 import Container from "@/components/Container";
 import Alert from "@/components/Alert";
+import Input from "@/components/Input";
 export default function Home() {
   return (
     <div>
@@ -20,7 +21,10 @@ export default function Home() {
       <Alert Warning>
         You have not completed the form.
       </Alert>
+      
 
+      <Input outlined placeHolder="Something...">
+      </Input>
 
 
     </div>
