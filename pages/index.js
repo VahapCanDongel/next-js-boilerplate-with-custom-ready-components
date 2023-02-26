@@ -19,17 +19,16 @@ export default function Home() {
         <div>Bye</div>
       </Container> */}
 
-      <Alert Warning>
-        You have not completed the form.
-      </Alert>
-      
+      <Alert Warning>You have not completed the form.</Alert>
 
-      <Input outlined placeHolder="Something...">
-      </Input>
+      <Input
+        rightIcon
+        outlined
+        placeHolder="Something..."
+        className="bg-red-200"
+      ></Input>
 
-      <Textbox  placeholder="Hello">
-
-      </Textbox>
+      <Textbox placeholder="Hello"></Textbox>
     </div>
   );
 }
